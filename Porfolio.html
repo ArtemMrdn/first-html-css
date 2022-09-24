@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css"
+</head>
+<body style="background-color:azure;">
+    <header>
+        <h1 align="center"> Мой первый недосайт</h1>
+        <address>
+            <div>Город: Николаев</div>
+            <div>Телефона: 953205412</div> 
+        </address>
+    </header>
+    <main>
+        <hr color="black">
+        <aside>
+        <form action="auth.php" method="POST" align="right">
+            <input type="text" placeholder="Введите имя">                      <!--placeholder -  создаyие подсказки-->
+            <input type="password" placeholder="Введите пароль">
+            <input type="submit" value="Авторизация">
+            <input type="reset" value="Сброс">
+        </form>
+        <div>
+            <h2>Мои контакты</h2>
+            <div>
+                <h3>Мои соцсети</h3>
+                <ul>
+                    <li><a href="https://vk.com/feed" target="_blank" title="скам не переходить">ВК</a></li>
+                    <li><a href="https://www.instagram.com/muradyasha14_88/" target="_blank" title="скам не переходить">ИНСТ </a></li>
+                    <li><a href="https://discord.gg/GTu8wPkFaa" target="_blank" title="скам не переходить">Сервер дискорда</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>....</div>
+        <div>....</div>
+        <div>....</div>
+        <div>....</div>
+        </aside>
+        <nav>
+        <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Портфолио</a></li>
+        <li><a href="#">Биография</a></li>
+        </ul>
+        </nav>
+        <section>
+        <h2>Обо мне</h2>
+        <img src="https://loremflickr.com/320/240" alt="прикол" title="Это кста Я" border="3">
+        <div>
+        <h1>Моя биография</h1>
+        <p><em><big>Ipsum dolor sit amet consectetur adipisicing elit.</em> Eum asperiores assumenda tempore sit consequuntur vel dolor esse molestias laudantium, qui possimus illum dicta autem quaerat, beatae nobis repellendus architecto tenetur odio reprehenderit? Aliquam perspiciatis doloribus, molestiae omnis, iure consequuntur nihil impedit, est mollitia reiciendis quos velit officiis consectetur aliquid exercitationem iste quod cumque illum? Cupiditate quas quisquam earum natus, numquam ipsum maxime suscipit dolore saepe doloremque necessitatibus adipisci aliquam laboriosam corrupti eos minima doloribus, quaerat reiciendis mollitia asperiores! Molestiae magni suscipit repellendus amet, modi quaerat perspiciatis quas excepturi cum omnis a corporis? Laborum aliquid, laudantium soluta est culpa neque repellendus.</p></big>
+        </div>
+        </section>
+        <section>
+            <h2>Моя Статистика</h2>
+            <div>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr bgcolor="#cacaca">
+                <th>Вид проекта</th>
+                <th>В работе</th>
+                <th>Сделано</th>
+            </tr>
+            <tr>
+                <td>Вид проекта</td>
+                <td>Лаба№2</td>
+                <td>Лаба№1</td>
+            </tr>
+            <tr>
+                <td>Вид проекта</td>
+                <td>Лаба№3</td>
+                <td>Лаба№1</td>
+            </tr>
+            </table>
+            </div>
+        </section>
+        <section>
+        <h2 style="color:red">Заказать у меня сайт</h2>
+        <form action="orde.php">
+            <div>
+            <label>Введите имя
+                <input type="text" placeholder="Введите свое имя">                    
+                </label>
+            </div>
+            <div>
+                <label>Введите почту
+                <input type="email" placeholder="Введите свой email">
+                </label>
+            </div>
+            <div>                                                                
+                <label> Выберите пол                                                  <!--label - позволяет делать подписи к инпутам-->
+                    <input type="radio" name="gendre" value="male"> М                       <!--type="radio"  -  устанвока кнопки с выбором -->
+                    <input type="radio" name="gendre" value="female"> Ж
+                </label>
+            </div>
+            <div> 
+                <label>Дополнительные возможности: 
+                    <input type="checkbox" value="adaptive"> Адаптивность                    <!--type="checkbox" - выбор нескольких ответов-->
+                    <input type="checkbox" value="hosting" checked> Установка на хостинг
+                    <input type="checkbox" value="support"> Дальнейшая поддержка
+                    <input type="checkbox" value="admin"> Установка админ панели
+                </label>
+            </div>
+            <div>
+                <label>Типы сайтов:
+                    <select name="type" multiple>                                                    <!--<select name="type" - установка опцыи выбора-->
+                        <option value="eshop">Интернет-магазин</option>
+                        <option value="landing">Лэндинг</option>
+                        <option value="sitevisit">Сайт-визитка</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>Ваш комментарий
+                    <textarea name="comment" id="cmnt" cols="10" rows="10" maxlength="100"></textarea>    <!--textarea - создать комменатрий-->
+                </label>
+            </div>
+            <input type="submit" value="Отправить"> 
+            <input type="reset" value="Сброс">
+        </form>
+        </section>
+    </main>
+    <footer>
+    <div>Кто скопирует этот сайт тот сын шлюхи</div>
+    </footer>
+</body>
+</html>
+
